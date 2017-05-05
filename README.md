@@ -18,12 +18,12 @@ _Web application that takes a number from a user and returns a range of numbers 
 | ------------- | ------------- | ------------- |
 | The program does not allow for anything other than numbers to be entered.  | e  | "Please enter a number."  |
 | The program does not allow for negative numbers to be entered.  | -3  | "Please enter a positive number."  |
-| The program will return nothing for blank submitted input.  | --  | --  |
-| The program will ignore numbers after a decimal.  | 4.7  | 1, 2, "ping", 4  |
+| The program will return alert for blank submitted input.  | --  | "Please enter a positive number."  |
 | The program returns an array of numbers from 1 to the inputted number in list form.  | 5  | 1, 2, 3, 4, 5  |
 | The program recognizes numbers divisible by 3 and replaces them with "ping".  | 6  | 1, 2, "ping", 4, 5, "ping"  |
 | The program recognizes numbers divisible by 5 and replaces them with "pong".  | 10  | 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"  |
 | The program recognizes numbers divisible by both 3 and 5 and replaces them with "ping-pong".  | 15  | 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"  |
+| The program will ignore numbers after a decimal.  | 4.7  | 1, 2, "ping", 4  |
 
 
 ## Setup/Installation Requirements

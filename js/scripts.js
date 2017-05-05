@@ -1,4 +1,5 @@
 // Back-End Business Logic
+var result = [];
 
 function playPingPong(number){
 
@@ -7,11 +8,16 @@ function playPingPong(number){
     return "";
   }
 
+  for(var i = 1; i <= number; i++) {
+    result.push(i);
+    console.log(result);
+  }
 
-
+  return result;
 };
 
 // Front-End User Interface
+
 $(document).ready(function(){
   $("form#pingPong").submit(function(event){
     event.preventDefault();
@@ -19,6 +25,9 @@ $(document).ready(function(){
     var number = $("#numberInput").val()
 
     var result = playPingPong(number)
-    $("ul").append("<li>"+result+"</li>")
+    
+    result.forEach(function(item) {
+      $("ul").append("<li>"+item+"</li>")
+    });
   });
 });
