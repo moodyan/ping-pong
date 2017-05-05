@@ -1,3 +1,43 @@
 #result {
-  display: none
+  display: none;
+}
+
+.jumbotron {
+  background-color: MediumAquamarine;
+  color: white;
+}
+
+body {
+  background-color: lightsalmon;
+}
+
+#submit {
+  background-color: MediumAquamarine;
+}
+
+#submit:hover {
+  background-color: MediumAquamarine;
+  border: 1px solid;
+  color: white;
+}
+
+#refresh {
+  background-color: white;
+  color: black
+}
+
+#refresh:hover {
+  background-color: MediumAquamarine;
+  border: 1px solid;
+  color: white;
+}
+
+.form-group h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.resultNumber {
+  color: white;
+  font-size: larger;
 }

@@ -30,6 +30,8 @@ $(document).ready(function(){
 
     var number = $("#numberInput").val()
 
+    $(".resultNumber").text(number);
+
     var result = playPingPong(number)
 
     result.forEach(function(item) {
