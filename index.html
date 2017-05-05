@@ -11,10 +11,10 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <img src="img/ping.png" alt="pong handle">
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <h1>Ping Pong Game</h1>
             <p>Input a number and just wait for the fun to ensue!</p>
           </div>
@@ -22,29 +22,26 @@
       </div>
     </div>
     <div class="container">
-      <form id="pingPong">
-         <div class="form-group">
-           <center><label for="number"><h2>Enter a number:</h2></label></center>
-           <input id="numberInput" class="form-control" type="number">
-         </div>
-         <center><button type="submit" class="btn btn-lg" id="submit">Let's Play!</button></center>
-
-      </form>
+          <form id="pingPong">
+             <div class="form-group">
+               <center><label for="number"><h2>Enter a number:</h2></label></center>
+               <input id="numberInput" class="form-control" type="number">
+             </div>
+             <center><button type="submit" class="btn btn-lg" id="submit">Let's Play!</button></center>
+          </form>
 
        <div id="result">
-
-         <center><button type="click" class="btn btn-success" id="refresh" onClick="window.location.reload()">Let's Play Again!</button></center>
-
-
          <div class="panel">
           <div class="panel-heading">
             <h3>You entered number <span class="resultNumber"></span>:</h3>
+            <center><button type="click" class="btn btn-lg" id="refresh" onClick="window.location.reload()">Let's Play Again!</button></center>
           </div>
           <div class="panel-body"><ul>
            </ul>
           </div>
          </div>
        </div>
+
      </div>
     </div>
   </body>

@@ -21,6 +21,7 @@ function playPingPong(number){
   }
 
   return result;
+
 };
 
 // Front-End User Interface

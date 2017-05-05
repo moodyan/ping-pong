@@ -27,7 +27,7 @@ body {
 }
 
 #refresh:hover {
-  background-color: MediumAquamarine;
+  background-color: lightsalmon;
   border: 1px solid;
   color: white;
 }
@@ -49,4 +49,8 @@ body {
 
 .panel {
   margin-top: : 30px;
+}
+
+input {
+  text-align: center
 }
