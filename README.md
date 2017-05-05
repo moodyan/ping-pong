@@ -16,7 +16,7 @@ _Web application that takes a number from a user and returns a range of numbers 
 
 | Description  | Input Example | Output Example |
 | ------------- | ------------- | ------------- |
-| The program does not allow for anything other than numbers to be entered.  | a  | "Please enter a number."  |
+| The program does not allow for anything other than numbers to be entered.  | e  | "Please enter a number."  |
 | The program does not allow for negative numbers to be entered.  | -3  | "Please enter a positive number."  |
 | The program will return nothing for blank submitted input.  | --  | --  |
 | The program will ignore numbers after a decimal.  | 4.7  | 1, 2, "ping", 4  |

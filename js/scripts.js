@@ -2,8 +2,10 @@
 
 function playPingPong(number){
 
-
-
+  if (number<=0) {
+    alert("Please enter a positive number.");
+    return "";
+  }
 
 
 
@@ -14,7 +16,7 @@ $(document).ready(function(){
   $("form#pingPong").submit(function(event){
     event.preventDefault();
 
-    var numberInput = $("#number").val()
+    var number = $("#numberInput").val()
 
     var result = playPingPong(number)
     $("ul").append("<li>"+result+"</li>")
