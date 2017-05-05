@@ -23,15 +23,12 @@ _Web application that takes a number from a user and returns a range of numbers 
 | The program recognizes numbers divisible by 3 and replaces them with "ping".  | 6  | 1, 2, "ping", 4, 5, "ping"  |
 | The program recognizes numbers divisible by 5 and replaces them with "pong".  | 10  | 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong"  |
 | The program recognizes numbers divisible by both 3 and 5 and replaces them with "ping-pong".  | 15  | 1, 2, "ping", 4, "pong", "ping", 7, 8, "ping", "pong", 11, "ping", 13, 14, "ping-pong"  |
-| The program will ignore numbers after a decimal.  | 4.7  | 1, 2, "ping", 4  |
 
 
 ## Setup/Installation Requirements
 
 * _Clone ping-pong repository onto desktop from GitHub_
-* _unk_
-* _unk_
-* _unk_
+* _Use preferred browser to view index.html_
 
 _You may also visit ._
 

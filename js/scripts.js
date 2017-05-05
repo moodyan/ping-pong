@@ -24,7 +24,6 @@ function playPingPong(number){
 };
 
 // Front-End User Interface
-
 $(document).ready(function(){
   $("form#pingPong").submit(function(event){
     event.preventDefault();
@@ -36,5 +35,15 @@ $(document).ready(function(){
     result.forEach(function(item) {
       $("ul").append("<li>"+item+"</li>")
     });
+
+    $("#result").show();
+    $("#pingPong").hide();
+
+    var refreshPage = [];
+    function refreshPage(){
+      window.location.reload();
+
   });
+
+}
 });
