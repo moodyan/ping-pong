@@ -36,10 +36,10 @@ $(document).ready(function(){
     var result = playPingPong(number)
 
     result.forEach(function(item) {
-      $("ul").append("<li>"+item+"</li>")
+      $("ul").append("<li>"+item+"</li>");
     });
 
-    $("#result").show();
+    $("#result").show(1000);
     $("#pingPong").hide();
 
     var refreshPage = [];
