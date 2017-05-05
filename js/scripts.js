@@ -40,10 +40,6 @@ $(document).ready(function(){
     $("#pingPong").hide();
 
     var refreshPage = [];
-    function refreshPage(){
-      window.location.reload();
 
   });
-
-}
 });
