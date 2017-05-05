@@ -9,8 +9,11 @@ function playPingPong(number){
   }
 
   for(var i = 1; i <= number; i++) {
-    result.push(i);
-    console.log(result);
+    if (i % 3 === 0) {
+      result.push("ping");
+    } else {
+      result.push(i);
+    }
   }
 
   return result;
@@ -25,7 +28,7 @@ $(document).ready(function(){
     var number = $("#numberInput").val()
 
     var result = playPingPong(number)
-    
+
     result.forEach(function(item) {
       $("ul").append("<li>"+item+"</li>")
     });
