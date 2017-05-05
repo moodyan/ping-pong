@@ -62,3 +62,7 @@ input {
 #numberInput {
   width: 50%;
 }
+
+.panel-body {
+  font-size: 20px;
+}

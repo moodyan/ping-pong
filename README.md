@@ -30,16 +30,16 @@ _Web application that takes a number from a user and returns a range of numbers 
 * _Clone ping-pong repository onto desktop from GitHub_
 * _Use preferred browser to view index.html_
 
-_You may also visit ._
+_You may also visit visit https://moodyan.github.io/ping-pong/ to view web application._
 
 
 ## Known Bugs
 
-_NA._
+_No known bugs._
 
 ## Support and contact details
 
-_NA._
+_If you run into any issues or have questions, ideas or concerns, please contact Alyssa Moody at alyssanicholemoody@gmail.com_
 
 ## Technologies Used
 
@@ -47,6 +47,6 @@ _HTML, CSS, JavaScript, jQuery_
 
 ### License
 
-*Nah.*
+*No license available at this time.*
 
 Copyright (c) 2017 **_Alyssa Moody_**
